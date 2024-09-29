@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="768ddf36-3588-467d-a502-6a7e74ff8aa6" name="変更" comment="add: Biomeの導入">
-      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vite-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
+    <list default="true" id="768ddf36-3588-467d-a502-6a7e74ff8aa6" name="変更" comment="add: Viteからcreate react appプロジェクトへ再構築">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biome.json" beforeDir="false" afterPath="$PROJECT_DIR$/biome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +29,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/irii.keita/Documents/dev/gs2-web-sandbox",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,11 +38,16 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/irii.keita/Dev/gs2-web-sandbox/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\irii.keita\\Documents\\dev\\gs2-web-sandbox\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irii.keita\Documents\dev\gs2-web-sandbox" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,7 +63,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727590126825</updated>
-      <workItem from="1727590127971" duration="20489000" />
+      <workItem from="1727590127971" duration="21072000" />
+      <workItem from="1727698361158" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="add: Reactプロジェクト、GS2 SDK">
       <option name="closed" value="true" />
@@ -88,7 +82,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727592068223</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add: Viteからcreate react appプロジェクトへ再構築">
+      <option name="closed" value="true" />
+      <created>1727621255283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727621255283</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add: Viteからcreate react appプロジェクトへ再構築">
+      <option name="closed" value="true" />
+      <created>1727621297407</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727621297407</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,14 +107,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: Reactプロジェクト、GS2 SDK" />
     <MESSAGE value="add: Biomeの導入" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: Biomeの導入" />
+    <MESSAGE value="add: Viteからcreate react appプロジェクトへ再構築" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: Viteからcreate react appプロジェクトへ再構築" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/index.tsx</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
